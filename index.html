@@ -35,7 +35,7 @@
     <!-- Hero -->
         <section class="hero-main">
             <div class="container hero-container"><h1 class="hero-logo">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-           <button type="button" class="hero-button">Заказать услугу</button></div>            
+           <button type="button" class="hero-button" data-modal-open>Заказать услугу</button></div>            
         </section>   
         <!-- Preference -->
         <section class="section">
@@ -67,9 +67,12 @@
         <section class="section section-work"><div class="container">
             <h2 class="work-logo">Чем мы занимаемся</h2>
             <ul class="work-cont">
-            <li class="work-photo"><img src="images/img.png" alt="work with computer" width="370"></li>
-            <li class="work-photo"><img src="images/img1.jpg" alt="work with computer" width="370"></li>
-            <li class="work-photo"><img src="images/img2.png" alt="work with computer" width="370"></li>
+            <li class="work-photo"><img src="images/img.png" alt="work with computer" width="370">
+            <p class="description">Десктопные приложения</p></li>
+            <li class="work-photo"><img src="images/img1.jpg" alt="work with computer" width="370">
+            <p class="description">Мобильные приложения</p></li>
+            <li class="work-photo"><img src="images/img2.png" alt="work with computer" width="370">
+            <p class="description">Дизайнерские решения</p></li>
             </ul></div>
             </section>
             <!--Team -->
@@ -155,4 +158,10 @@
         </svg></a></li>
     </ul></div></div>
 </footer>
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+    <button type="button" class="modal-close-button" data-modal-close><svg width="20" height="20"><use href="./images/icons.svg#icon-close"></use></svg></button>
+</div></div>
+<script src="./js/modal.js"></script>
 </body>
