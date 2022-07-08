@@ -284,7 +284,7 @@ left: 0;
     justify-content: center;
 }
 .team-card {
-    
+    background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
@@ -482,7 +482,7 @@ overflow: hidden;}
     top: 0;
     left: 0;
 
-transform: translateY(100%);
+transform: translateY(101%);
 
     width: 100%;
     height: 100%;
@@ -624,8 +624,8 @@ fill: #EEEEEE;}
 }
 .modal-close-button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 17px;
+    right: 17px;
     transform: translate(50%,-50%);
     border-radius: 50%;
     border: none;
